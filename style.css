@@ -5,7 +5,6 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body {
@@ -13,7 +12,7 @@ body {
 }
 
 html {
-    scroll-behaviour: smooth;
+    scroll-behavior: smooth;
 }
 
 p {
@@ -29,8 +28,35 @@ nav, .nav-links {
     display: flex;
 }
 
-.nav-links {
+.nav {
     justify-content: space-around;
     align-items: center;
     height: 17vh;
+}
+
+.nav-links {
+    gap: 3rem;
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    text-decoration-color: white;
+}
+
+a:hover {
+    color: grey;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: rgb(181, 181, 181);
+}
+
+.logo {
+    font-size: 2rem;
+}
+
+.logo:hover {
+    cursor: default;
 }
