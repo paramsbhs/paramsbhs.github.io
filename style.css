@@ -354,6 +354,9 @@ section {
   #projects {
     position: relative;
   }
+  #wexperience {
+    position: relative;
+  }
   
   .color-container {
     border-color: rgb(163, 163, 163);
