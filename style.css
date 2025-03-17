@@ -172,6 +172,7 @@ section {
     width: 400px;
     margin: auto 0;
   }
+
   
   .section__text {
     align-self: center;
@@ -353,6 +354,7 @@ section {
   
   #projects {
     position: relative;
+  
   }
   #wexperience {
     position: relative;
@@ -365,8 +367,8 @@ section {
   
   .project-img {
     border-radius: 2rem;
-    width: 90%;
-    height: 90%;
+    width: 70%;
+    height: 70%;
   }
   
   .project-title {
